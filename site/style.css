@@ -1,29 +1,56 @@
   
+body{
+	font-family: "Comic Sans MS" 
+}
 
+p{
+	color: black;
+}
 
+h2{ 
+	text-align: right;
+	padding: 4px 4px 4px 4px ;
+	border: 1px solid black;
+   
+ }
+   
+   .box1{
 
- 
-   #box1{
-
+    float: left;
+    width:330px;
+    margin: 5px 5px 5px 5px;
  	border: 1px solid black;
  	padding: 2px 2px 2px 2px ;
- 	background-color: red;
+ 	background-color: blue;
  } 
 
-  #box2{
-  	
+  .box2{
+    float: left;
+   width:330px;
+    margin: 5px 5px 5px 5px;
  	border: 1px solid black;
  	padding: 2px 2px 2px 2px ;
- 	background-color: red;
+ 	background-color: gray;
 
  } 
-  #box3{
-  	
+  .box3{
+  	float: left;
+    width:330px;
+    margin: 5px 5px 5px 5px;
  	border: 1px solid black;
  	padding: 2px 2px 2px 2px ;
- 	background-color: red;
+ 	background-color: yellow;
 
  } 
-.1{
-	text-align: left;
+@media(min-width:768px ) and (max-width:991px  )
+{
+.box1{
+	width: 30%;
+}
+.box2{
+	width: 60%;
+}
+.box3{
+	width: 100%;
+}
 }
